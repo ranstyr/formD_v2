@@ -3,6 +3,7 @@ logger.add(logger.transports.File, {filename: './logs/formsLoader.log'});
 logger.remove(logger.transports.Console);
 logger.level = 'debug';
 
+
 logger.info("forms download process started");
 
 var commandLineArgs = require('command-line-args');
